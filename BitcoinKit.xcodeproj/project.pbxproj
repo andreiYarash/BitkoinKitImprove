@@ -1695,7 +1695,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = arm64;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/include",
 					"$(SRCROOT)/Libraries/secp256k1/include",
@@ -1736,7 +1735,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = arm64;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/include",
 					"$(SRCROOT)/Libraries/secp256k1/include",
@@ -1770,7 +1768,6 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				EXCLUDED_ARCHS = arm64;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/BitcoinKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1792,7 +1789,6 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				EXCLUDED_ARCHS = arm64;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/BitcoinKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
