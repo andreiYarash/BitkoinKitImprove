@@ -1688,9 +1688,8 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ARCHS = (
+					x86_64,
 					"$(ARCHS_STANDARD)",
-					armv7s,
-					armv7,
 				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1734,9 +1733,8 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ARCHS = (
+					x86_64,
 					"$(ARCHS_STANDARD)",
-					armv7s,
-					armv7,
 				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

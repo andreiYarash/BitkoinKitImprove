@@ -18,6 +18,8 @@ Pod::Spec.new do |spec|
   spec.module_map = 'BitcoinKit/BitcoinKit.modulemap'
   spec.ios.deployment_target = '8.0'
   spec.swift_version = '5.0'
+	s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+	s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   spec.pod_target_xcconfig = { 'SWIFT_WHOLE_MODULE_OPTIMIZATION' => 'YES',
                                'APPLICATION_EXTENSION_API_ONLY' => 'YES',
