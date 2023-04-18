@@ -846,7 +846,6 @@
 		292AEA3C2112EB190012D7E5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A9F6191229EDDE4300CB4885 /* TestNet.swift */,
 				A9F618F529EDDD1900CB4885 /* LocalSigning */,
 				481BDCC52332172C00FC79FC /* SecureGenerateBytes */,
 				481BDC9623320B7000FC79FC /* Mnemonic */,
@@ -1326,6 +1325,7 @@
 		A9F6191129EDDE4300CB4885 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				A9F6191229EDDE4300CB4885 /* TestNet.swift */,
 				A9F6191329EDDE4300CB4885 /* RegTest.swift */,
 				A9F6191429EDDE4300CB4885 /* MainNet.swift */,
 				A9F6191529EDDE4300CB4885 /* Helpers */,
