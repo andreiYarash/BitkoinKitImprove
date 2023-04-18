@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.source = { git: 'https://github.com/andreiYarash/BitkoinKitImprove.git', tag: "v#{spec.version}" }
-  spec.source_files = 'BitcoinKit/**/*.{h,m,swift}', 'Sources/BitcoinKit/**/*.{h,m,swift}', 'Sources/LocalSigning/Classes/**/*.{h,m,swift}'
+  spec.source_files = 'BitcoinKit/**/*.{h,m,swift}', 'Sources/BitcoinKit/**/*.{h,m,swift}', 'Sources/LocalSigning/Classes/**/*.{swift}'
   spec.private_header_files = 'BitcoinKit/**/BitcoinKitPrivate.h'
   spec.exclude_files = 'Sources/**/LinuxSupport.swift'
   spec.module_map = 'BitcoinKit/BitcoinKit.modulemap'
