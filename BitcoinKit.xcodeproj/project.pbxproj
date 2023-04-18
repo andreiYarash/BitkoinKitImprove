@@ -1274,17 +1274,9 @@
 		A9F618F529EDDD1900CB4885 /* Local Signing */ = {
 			isa = PBXGroup;
 			children = (
-				A9F618FA29EDDDB800CB4885 /* Local Core */,
-			);
-			path = "Local Signing";
-			sourceTree = "<group>";
-		};
-		A9F618FA29EDDDB800CB4885 /* Local Core */ = {
-			isa = PBXGroup;
-			children = (
 				A9F6190129EDDE4300CB4885 /* Classes */,
 			);
-			path = "Local Core";
+			path = "Local Signing";
 			sourceTree = "<group>";
 		};
 		A9F6190129EDDE4300CB4885 /* Classes */ = {
