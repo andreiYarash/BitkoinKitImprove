@@ -846,7 +846,7 @@
 		292AEA3C2112EB190012D7E5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A9F618F529EDDD1900CB4885 /* Local Signing */,
+				A9F618F529EDDD1900CB4885 /* LocalSigning */,
 				481BDCC52332172C00FC79FC /* SecureGenerateBytes */,
 				481BDC9623320B7000FC79FC /* Mnemonic */,
 				29AC9962214E898800AE82FE /* Keys */,
@@ -1271,12 +1271,12 @@
 			path = SecureGenerateBytes;
 			sourceTree = "<group>";
 		};
-		A9F618F529EDDD1900CB4885 /* Local Signing */ = {
+		A9F618F529EDDD1900CB4885 /* LocalSigning */ = {
 			isa = PBXGroup;
 			children = (
 				A9F6190129EDDE4300CB4885 /* Classes */,
 			);
-			path = "Local Signing";
+			path = LocalSigning;
 			sourceTree = "<group>";
 		};
 		A9F6190129EDDE4300CB4885 /* Classes */ = {
